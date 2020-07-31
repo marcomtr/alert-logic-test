@@ -1,0 +1,9 @@
+.header {
+	background-color: black;
+
+
+	&__logo {
+		height: 32px;
+		margin: $spacer 0;
+	}
+}

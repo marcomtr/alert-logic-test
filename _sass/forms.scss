@@ -1,0 +1,38 @@
+.form-group,
+.form-check {
+	margin-top: $spacer;
+}
+
+.form-check {
+	display: inline-flex;
+
+	label {
+		margin-left: $spacer/2;
+	}
+
+	input {
+		margin-top: $spacer/4;
+	}
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: $input-height;
+	border-radius: $border-radius;
+	border: 1px solid $border-color;
+	padding: $input-btn-padding-y $input-btn-padding-x;
+
+	&:focus,
+	&:active {
+		outline-color: $brand;
+	}
+}
+
+.form-label {
+	font-size: ($font-size-base/1.15);
+}
+
+select.form-control {
+	height: $input-height;
+}

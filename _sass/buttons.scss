@@ -1,0 +1,61 @@
+// stylelint-disable selector-no-qualifying-type
+
+//
+// Base styles
+//
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: $input-btn-padding-y-lg $input-btn-padding-x-lg;
+  font-weight: $font-weight-bold;
+  font-family: $font-family-display;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+
+  &:focus,
+  &.focus {
+    outline: 0;
+    opacity: .8;
+  }
+
+}
+
+.btn--link {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.btn--with-icon {
+  display: inline-flex;
+
+  svg {
+    margin-right: $spacer/3;
+  }
+}
+
+.btn--primary {
+  background-color: $primary;
+  color: white;
+  border-radius: $border-radius-lg;
+}
+
+.btn--ghost {
+  background-color:transparent;
+  color: $primary;
+  border-color: $primary;
+  border-radius: $border-radius-lg;
+
+  svg {
+    fill: $primary;
+  }
+}
+
+.btn--block {
+	width: 100%;
+}

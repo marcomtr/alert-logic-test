@@ -1,0 +1,13 @@
+/* ==========================================================================
+   #WRAPPER
+   ========================================================================== */
+
+$wrapper-width:   1200px !default;
+
+.wrapper {
+  padding-right: ($spacer*.25);
+  padding-left:  ($spacer*.25);
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: $wrapper-width;
+}

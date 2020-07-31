@@ -1,0 +1,44 @@
+.page-section {
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	z-index: 1;
+	margin-bottom: $spacer*5;
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+
+	&--hero {
+		height: 560px;
+	}
+
+	&__copy {
+		margin-top: $spacer*5;
+	}
+
+	&__box {
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		border-radius: $border-radius-lg;
+		box-shadow: 0 7px 16px rgba(0,0,0,.3);
+		margin:$spacer*4 auto;	
+		padding: $spacer*2;
+	}
+
+
+	&__cta {
+		padding-top:$spacer*2;
+	}
+
+	&__header {
+		margin-bottom:$spacer/2;
+	}
+
+	&__title {
+		padding:$spacer 0;
+	}
+
+}
