@@ -1,11 +1,12 @@
 Demo at [https://marcomtr.github.io/alert-logic-test/!](https://marcomtr.github.io/alert-logic-test/) 
 
-
 #Why did I did I build this?
+
 Since I don't have a lot of code available on GitHub to showcase my front-end dev skills I decided to make myself a challenge and create a GitHub page with Jekyll.
 
 
 #What is it about?
+
 A contact form is used inconsistently throughout the website. See screenshots below:
 
 ![picture](assets/img/screenshot-home.png)
@@ -13,9 +14,11 @@ A contact form is used inconsistently throughout the website. See screenshots be
 ![picture](assets/img/screenshot-landing-2.png)
 
 #Why does it matter?
+
 Inconsistency is a key principle of UX design which benefits the user and also the code base. 
 
 #How did I solve this?
+
 With the help of Jekyll and Bootstrap I created a modular form that can be used differently using the same form blocks.
 
     {% include form-name.html %}
