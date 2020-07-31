@@ -11,7 +11,7 @@ A contact form is used inconsistently throughout the website. See screenshots be
 
 ![picture](assets/img/screenshot-home.png)
 ![picture](assets/img/screenshot-landing-1.png)
-![picture](assets/img/screenshot-landing-2.png)
+![picture](assets/img/Screenshot-landing-2.png)
 
 # Why does it matter?
 
